@@ -201,20 +201,3 @@ while True:
     ejecutar_comando(comando)
 
 
-Tengo un proyecto de asistente de voz basado en Python que actualmente funciona con un bucle que escucha comandos de voz continuamente.
-
-Quiero mejorar el proyecto para que el asistente:
-
-No se active automáticamente ni escuche al iniciar el programa, sino que permanezca en modo espera.
-
-Se active solo cuando el usuario presione una tecla específica, por ejemplo F9.
-
-Una vez activado, el asistente debe comenzar a escuchar y procesar comandos de voz normalmente.
-
-El asistente debe poder desactivarse con otra tecla, por ejemplo F10, dejando de escuchar y volviendo a modo espera.
-
-Durante todo el tiempo, el programa debe ejecutarse en segundo plano sin bloquear la interfaz ni abrir ventanas molestas.
-
-Usa la librería keyboard para detectar pulsaciones globales y threading para manejar la escucha en un hilo separado.
-
-Por favor, genera un código Python claro y comentado que implemente esta funcionalidad, integrando la activación/desactivación con F9 y F10, y mostrando mensajes de voz indicando el cambio de estado.
