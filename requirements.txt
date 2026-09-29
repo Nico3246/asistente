@@ -1,0 +1,13 @@
+SpeechRecognition
+pyttsx3
+pywhatkit
+pyjokes
+keyboard
+PyGetWindow
+PyAutoGUI
+psutil
+screeninfo
+PyPDF2
+pycaw
+comtypes
+PyAudio
