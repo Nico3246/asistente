@@ -124,18 +124,10 @@ En Windows:
 .venv\Scripts\Activate.ps1
 ```
 
-El proyecto todavía no dispone de un `requirements.txt`, por lo que las dependencias deben instalarse manualmente.
-
-Las bibliotecas utilizadas por el código incluyen:
+Instala las dependencias declaradas en `requirements.txt`:
 
 ```bash
-pip install SpeechRecognition pyttsx3 pywhatkit pyjokes keyboard pygetwindow pyautogui psutil screeninfo PyPDF2 pycaw comtypes
-```
-
-Para utilizar el micrófono, `SpeechRecognition` también necesita un backend de audio compatible, normalmente PyAudio:
-
-```bash
-pip install PyAudio
+pip install -r requirements.txt
 ```
 
 > La instalación de PyAudio puede variar según la versión de Python y Windows utilizada.
@@ -249,7 +241,6 @@ Las carpetas generadas `build/` y `dist/` no se versionan.
 - El sistema de comandos se basa actualmente en coincidencias de frases y palabras, no en interpretación semántica avanzada.
 - Algunas acciones pueden depender de la aplicación que tenga el foco en ese momento.
 - Las tareas de automatización deben utilizarse con precaución, especialmente el cierre de procesos y la limpieza de archivos temporales.
-- El proyecto aún no incluye un archivo `requirements.txt` con las dependencias declaradas.
 
 ## Objetivo del proyecto
 
